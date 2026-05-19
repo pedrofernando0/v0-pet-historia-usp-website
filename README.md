@@ -1,30 +1,46 @@
-# Pet historia usp website
+# PET Historia USP Digital Archive Prototype
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+Interface prototype for organizing the historical archive and institutional memory of PET Historia USP.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/plfonseca-7324s-projects/v0-pet-historia-usp-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/Tzj6jFuw8VN)
+The project presents a dashboard-style experience for browsing documents, people, reports, search flows, and historical records. It is designed as a product prototype: the current repository focuses on interface structure and user workflows, with sample/static data used to represent the intended experience.
 
-## Overview
+## What It Includes
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+- Dashboard for document counts, historical timeline, recent records, and quick actions
+- Document catalog interface for archive material and metadata
+- Advanced search flow for structured discovery
+- People profiles and reports modules
+- Responsive UI built with reusable React components
 
-## Deployment
+## Tech Stack
 
-Your project is live at:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui-style components
+- Recharts
 
-**[https://vercel.com/plfonseca-7324s-projects/v0-pet-historia-usp-website](https://vercel.com/plfonseca-7324s-projects/v0-pet-historia-usp-website)**
+## Run Locally
 
-## Build your app
+```bash
+pnpm install
+pnpm dev
+```
 
-Continue building your app on:
+For a production build:
 
-**[https://v0.app/chat/projects/Tzj6jFuw8VN](https://v0.app/chat/projects/Tzj6jFuw8VN)**
+```bash
+pnpm build
+pnpm start
+```
 
-## How It Works
+## Project Status
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+This is a public UI prototype, not a production archive system. The codebase is useful for evaluating product direction, interface organization, and the proposed information architecture for a PET Historia USP digital archive.
+
+## Repository Notes
+
+- The app currently uses representative sample data in the interface.
+- The repository was originally generated from a visual prototyping workflow and has been documented here as a standalone public project.
+- Future production work should connect the interface to persistent data, authentication, permissions, and an ingestion workflow for archival records.
