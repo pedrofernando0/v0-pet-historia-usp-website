@@ -1,5 +1,7 @@
 # PET Historia USP Digital Archive Prototype
 
+> **DEPRECATED** — This is an early SPA prototype built with `useState` + mock data. The canonical production application is **[AcervoPet](https://github.com/pedrofernando0/AcervoPet)** (Next.js 16 App Router + Prisma + PostgreSQL + Backblaze B2, deployed at [acervo-pet.vercel.app](https://acervo-pet.vercel.app)). This repository is kept as a visual reference for UI/UX ideas (Timeline search mode, enriched person cards) but should not be used as a starting point for new development.
+
 Interface prototype for organizing the historical archive and institutional memory of PET Historia USP.
 
 The project presents a dashboard-style experience for browsing documents, people, reports, search flows, and historical records. It is designed as a product prototype: the current repository focuses on interface structure and user workflows, with sample/static data used to represent the intended experience.
